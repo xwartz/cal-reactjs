@@ -1,0 +1,52 @@
+.datepicker {
+  width: 170px;
+  margin: 50px auto;
+}
+
+.datepicker {
+  background-color: #ffffff;
+}
+.datepicker span {
+  display: inline-block;
+  text-align: center;
+}
+
+.datepicker .d-month {
+  font-size: 16px;
+  color: #4771b1;
+}
+.datepicker .d-year {
+  font-size: 16px;
+  color: #4771b1;
+}
+.datepicker .d-week {
+  font-size: 12px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+}
+.datepicker .d-day {
+  text-align: center;
+  font-size: 12px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  cursor: pointer;
+  color: #333333;
+  border-radius: 4px;
+}
+.datepicker .d-day.today {
+  color: #4771b1;
+  background-color: #dfe8f7;
+}
+.datepicker .d-day:hover {
+  background-color: #ebeef0;
+  color: #333333;
+}
+.datepicker .d-day.off {
+  color: #bababa;
+}
+.datepicker .d-day.active {
+  color: #ffffff;
+  background-color: #4c87e0;
+}
