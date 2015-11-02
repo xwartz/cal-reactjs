@@ -1,5 +1,9 @@
+'use strict';
+
+let React = require('react')
+
 // day
-var Day = React.createClass({
+let Day = React.createClass({
 
   render: function () {
     return (
@@ -10,19 +14,19 @@ var Day = React.createClass({
   }
 })
 
-var Days = React.createClass({
+let Days = React.createClass({
 
   render: function () {
-    var days = [],
+    let days = [],
         date = new Date,
         month = date.getMonth() + 1,
         year = date.getFullYear(),
         today = date.getDate(),
         daysInMonth = new Date(year, month, 0).getDate();
 
-    for(var i = 1; i <= daysInMonth; i++ ) days.push(i)
+    for(let i = 1; i <= daysInMonth; i++ ) days.push(i)
 
-    var dayNode = days.map(function (day) {
+    let dayNode = days.map(function (day) {
       return (
         <Day day={day}>
         </Day>
@@ -39,11 +43,11 @@ var Days = React.createClass({
 })
 
 // week
-var Week = React.createClass({
+let Week = React.createClass({
 
   render: function () {
-    var weekdays = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
-    var weekdayNode = weekdays.map(function (weekday) {
+    let weekdays = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
+    let weekdayNode = weekdays.map(function (weekday) {
       return (
         <span className="d-week">
           {weekday}
@@ -60,7 +64,7 @@ var Week = React.createClass({
 })
 
 // calendar
-var Datepicker = React.createClass({
+let Datepicker = React.createClass({
 
   render: function () {
     
