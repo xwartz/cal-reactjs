@@ -1,6 +1,7 @@
 'use strict';
 
 let React = require('react')
+let ReactDom = require('react-dom')
 
 // day
 let Day = React.createClass({
@@ -77,7 +78,7 @@ let Datepicker = React.createClass({
   }
 })
 
-React.render(
+ReactDom.render(
   <Datepicker />,
   document.getElementById('datepicker')
 )
