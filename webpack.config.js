@@ -11,7 +11,7 @@ module.exports = {
     publicPath: '/dist/',
     filename: 'app.js'
   },
-
+  devtool: 'source-map',
   module: {
     loaders: [{
       test: /\.js$/,
