@@ -1,2 +1,2 @@
-# datepicker-reactjs
-React datepicker
+### cal-reactjs
+React Calendar using Webpack
