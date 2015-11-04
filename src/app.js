@@ -1,7 +1,10 @@
 'use strict';
 
-let React = require('react')
-let ReactDom = require('react-dom')
+require('../styles/datepicker.scss');
+
+let React = require('react');
+let ReactDom = require('react-dom');
+
 
 // day
 let Day = React.createClass({

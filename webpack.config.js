@@ -1,3 +1,4 @@
+var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
@@ -7,7 +8,7 @@ module.exports = {
     './src/app.js'
   ],
   output: {
-    path: __dirname + '/dist/',
+    path: path.join(__dirname, '/dist/'),
     publicPath: '/dist/',
     filename: 'app.js'
   },
@@ -18,6 +19,9 @@ module.exports = {
       exclude: /node_modules/,
       loader: 'react-hot!jsx-loader?harmony'
       // loader: 'react-hot!babel-loader?harmony'
+    }, {
+      test: /\.scss$/,
+      loader: 'style!css!sass'
     }]
   },
   resolve: {

@@ -1,0 +1,58 @@
+.datepicker {
+  width: 170px;
+  margin: 50px auto;
+  background-color: #fff;
+
+  span {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .d-month {
+    font-size: 16px;
+    color: #4771b1;
+  }
+
+  .d-year {
+    font-size: 16px;
+    color: #4771b1;
+  }
+
+  .d-week {
+    font-size: 12px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+  }
+
+  .d-day {
+    text-align: center;
+    font-size: 12px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    cursor: pointer;
+    color: #333333;
+    border-radius: 4px;
+
+    &.today {
+      color: #4771b1;
+      background-color: #dfe8f7;
+    }
+
+    &:hover {
+      background-color: #ebeef0;
+      color: #333333;
+    }
+
+    &.off {
+      color: #bababa;
+    }
+    &.active {
+      color: #ffffff;
+      background-color: #4c87e0;
+    }
+
+  }
+
+}
