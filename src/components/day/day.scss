@@ -1,31 +1,4 @@
-.datepicker {
-  width: 170px;
-  margin: 50px auto;
-  background-color: #fff;
-
-  span {
-    display: inline-block;
-    text-align: center;
-  }
-
-  .d-month {
-    font-size: 16px;
-    color: #4771b1;
-  }
-
-  .d-year {
-    font-size: 16px;
-    color: #4771b1;
-  }
-
-  .d-week {
-    font-size: 12px;
-    width: 24px;
-    height: 24px;
-    line-height: 24px;
-  }
-
-  .d-day {
+.d-day {
     text-align: center;
     font-size: 12px;
     width: 24px;
@@ -52,7 +25,5 @@
       color: #ffffff;
       background-color: #4c87e0;
     }
-
-  }
 
 }

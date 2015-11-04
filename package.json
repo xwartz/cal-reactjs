@@ -1,18 +1,18 @@
 {
-  "name": "datepicker-reactjs",
+  "name": "cal-reactjs",
   "version": "1.0.0",
-  "description": "React datepicker",
+  "description": "React cal",
   "main": "app.js",
   "scripts": {
-    "start": "node server.js"
+    "dev": "node dev-server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@xwartz.github.com:xwartz/datepicker-reactjs.git"
+    "url": "git@xwartz.github.com:xwartz/cal-reactjs.git"
   },
   "keywords": [
     "react",
-    "datepicker"
+    "cal"
   ],
   "author": "xwartz <stddup@gmail.com> (https://github.com/xwartz/)",
   "license": "MIT",
